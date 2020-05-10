@@ -14,13 +14,18 @@ go build
 apimake --help
 ```
 
+## 全局参数
+```
+--file 指定接口文档的本地存储文件
+```
+
 ### 列表显示接口文档
 通过`list`或者别名`ls`展示所有的接口文档
 ```
 apimake ls
 ```
 如图:
-![图](https://github.com/ebar-go/apimake/blob/master/list.png)
+![图](https://github.com/ebar-go/apimake/blob/master/screenshot/list.png)
 
 ### 创建接口文档
 通过`create`命令创建接口文档
@@ -29,7 +34,7 @@ apimake ls
 apimake create
 ```
 如图:
-![图](https://github.com/ebar-go/apimake/blob/master/create.png)
+![图](https://github.com/ebar-go/apimake/blob/master/screenshot/create.png)
 
 
 ### 查看接口文档
@@ -38,7 +43,7 @@ apimake create
 apimake show --id=1
 ```
 如图:
-![图](https://github.com/ebar-go/apimake/blob/master/detail.png)
+![图](https://github.com/ebar-go/apimake/blob/master/screenshot/detail.png)
 
 
 ### 更新接口文档
